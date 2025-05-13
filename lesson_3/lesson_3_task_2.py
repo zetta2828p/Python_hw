@@ -10,4 +10,5 @@ catalog = [
 ]
 
 for smartphone in catalog:
-    print (f"{smartphone.brand} {smartphone.model} {smartphone.number}")
+    print (f"{smartphone.brand} - {smartphone.model}. {smartphone.number}")
+
