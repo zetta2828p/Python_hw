@@ -25,5 +25,5 @@ try:
     input_field.send_keys("Pro")
 
 finally:
-    # Закрытие браузера
+    # Закрытие страницы браузера
     driver.quit()

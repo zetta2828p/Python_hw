@@ -23,5 +23,5 @@ except Exception as e:
     print(f"Ошибка: {e}")
 
 finally:
-    # Закрытие драйвера
+    # Закрытие браузера
     driver.quit()

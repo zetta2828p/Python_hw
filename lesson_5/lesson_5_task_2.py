@@ -17,5 +17,5 @@ try:
     button.click()
 
 finally:
-    # Завершение работы драйвера
+    # Закрытие браузера
     driver.quit()

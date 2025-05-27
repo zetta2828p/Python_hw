@@ -30,5 +30,5 @@ try:
     print("Сообщение системы:", flash_message.split("×")[0].strip())
 
 finally:
-    # Корректное закрытие браузера
+    # Закрытие браузера
     driver.quit()
