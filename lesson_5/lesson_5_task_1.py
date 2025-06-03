@@ -19,9 +19,6 @@ try:
     # Проверка, что кнопка может быть идентифицирована с помощью класса 'btn-primary'
     button = driver.find_element(By.CSS_SELECTOR, "button.btn-primary")
 
-except Exception as e:
-    print(f"Ошибка: {e}")
-
 finally:
     # Закрытие браузера
     driver.quit()
