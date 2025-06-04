@@ -20,7 +20,7 @@ WebDriverWait(driver, 10).until(
 
 # Получение значения атрибута src у третьей картинки
 images = driver.find_elements(By.TAG_NAME, 'img')
-src_value = images[2].get_attribute('src')
+src_value = images[3].get_attribute('src')
 
 # Вывод значения в консоль
 print(src_value)
